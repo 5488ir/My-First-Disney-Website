@@ -1,0 +1,84 @@
+@media all and ( max-width: 1100px ) {
+	.container {
+		width: 90%
+	}
+}
+
+@media all and ( max-width: 1070px ) {
+	.team .team-item {
+		width: 80%;
+		float: none;
+		text-align: center;
+		margin: auto;
+	}
+
+	.team .team-item p {
+		margin: auto;
+	}
+}
+
+@media all and ( max-width: 735px ) {
+	.logo {
+		width: 100%;
+		float: none;
+	}
+
+	.logo img {
+		display: block;
+		margin: auto;
+	}
+
+	.menu {
+		width: 100%;
+		float: none;
+	}
+
+	.menu ul {
+		text-align: center;
+		padding: 5px 0px 20px;
+	}
+
+	.banner .benner-content {
+		width: 90%;
+	}
+}
+
+@media all and ( max-width: 520px ) {
+	.menu ul li {
+		display: table;
+		margin: 5px auto;
+		
+	}
+}
+
+@media all and ( max-width: 500px ) {
+
+	.banner .benner-content h1 {
+		font-size: 45px;
+	}
+
+	.banner .benner-content p {
+		font-size: 16px;
+	}
+
+	.banner .benner-content a {
+		padding: 8px 15px;
+		font-size: 13px;
+	}
+
+	.section-title h2 {
+		font-size: 30px;
+	}
+
+	.section-title p {
+		font-size: 14px;
+	}
+
+	.team .team-item h2 {
+		font-size: 30px;
+	}
+
+	.team .team-item p {
+		font-size: 14px;
+	}
+}
