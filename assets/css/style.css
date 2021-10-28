@@ -1,4 +1,19 @@
-	
+@font-face {
+	font-family: best school;
+	src: url('../fonts/Best\ School\ Font\ by\ Kelik\ \(7NTypes\).otf');
+}
+
+@font-face {
+	font-family: bing bam boum;
+	src: url('../fonts/Bing\ Bam\ Boum.ttf');
+}
+
+@font-face {
+	font-family: Mystery Day;
+	src: url('../fonts/Mystery-Day.ttf');
+}
+
+
 		/* Reseting Code Start */
 
 * {
@@ -174,7 +189,7 @@ body {
 }
 
 .team .team-item h2 {
-	font-family: best school;
+	font-family: Mystery Day;
 	font-weight: normal;
 	text-transform: uppercase;
 	color: #202020;
